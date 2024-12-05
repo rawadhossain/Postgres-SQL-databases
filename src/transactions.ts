@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 const pgClient = new Client(
-    'postgresql://neondb_owner:q6XMzT5umsGN@ep-damp-waterfall-a571x77j.us-east-2.aws.neon.tech/neondb?sslmode=require',
+    'postgresql://neondb_owner:*****.us-east-2.aws.neon.tech/neondb?sslmode=require',
 );
 
 pgClient.connect();
